@@ -1,86 +1,114 @@
-# 👋 Hi, I'm Adarsh Tripathi  
+# 🛒 Blinkit Sales Analysis Dashboard | Power BI | Data Analytics Project
 
-🚀 **Data Analyst | Aspiring Data Engineer | Power BI Developer**  
-💡 Turning raw data into meaningful insights & business impact  
-
----
-
-## 🌟 About Me  
-- 📊 Data enthusiast passionate about **Analytics & Business Intelligence**  
-- 🧠 Strong ability to **analyze, clean & visualize data**  
-- ⚡ Hands-on experience with **real-world data projects**  
-- ☁️ Currently exploring **Azure, ETL Pipelines & Data Engineering**  
-- 🎯 Goal: Become a **Top 1% Data Professional**  
+![Power BI](https://img.shields.io/badge/Tool-PowerBI-yellow)
+![SQL](https://img.shields.io/badge/Skill-Data%20Analysis-blue)
+![Excel](https://img.shields.io/badge/Data-Excel-green)
+![Status](https://img.shields.io/badge/Project-Completed-brightgreen)
 
 ---
 
-## 🛠️ Tech Stack  
+## 📌 Business Problem
+Retail businesses often struggle to track sales performance across multiple outlets, product categories, and customer preferences.
 
-### 📊 Data Analytics  
-![Power BI](https://img.shields.io/badge/PowerBI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black)
-![Excel](https://img.shields.io/badge/Excel-217346?style=for-the-badge&logo=microsoft-excel&logoColor=white)
-![SQL](https://img.shields.io/badge/SQL-025E8C?style=for-the-badge&logo=database&logoColor=white)
-
-### 🐍 Programming  
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-
-Libraries: Pandas • NumPy • Matplotlib • Seaborn  
-
-### ⚙️ Data Engineering  
-![Azure](https://img.shields.io/badge/Azure-0078D4?style=for-the-badge&logo=microsoft-azure&logoColor=white)
-
-ETL Pipelines • Apache (Basics)  
+This project solves that by building an **interactive analytics dashboard** that enables stakeholders to:
+- Monitor KPIs in real-time  
+- Identify top-performing products  
+- Understand customer buying behavior  
 
 ---
 
-## 🚀 Featured Projects  
-
-### 🛒 Blinkit Sales Analysis Dashboard  
-📊 Interactive Power BI Dashboard analyzing **$1.2M+ sales data**  
-📈 Identified trends in product categories, outlet performance & customer behavior  
-
-👉 **[View Project](https://github.com/Adarsh-T-04/your-link)**  
+## 🎯 Key Business Goals
+- Improve sales visibility across outlets  
+- Identify high & low performing product categories  
+- Enable data-driven decision-making  
+- Track KPI performance effectively  
 
 ---
 
-### 🎬 IMDb Movie Success Analysis  
-🎯 Exploratory Data Analysis using Python  
-📊 Discovered key factors influencing **movie success & ratings**  
-
-👉 **[View Project](https://github.com/Adarsh-T-04/your-link)**  
-
----
-
-## 📈 GitHub Analytics  
-
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=Adarsh-T-04&show_icons=true&theme=tokyonight)
-
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=Adarsh-T-04&layout=compact&theme=tokyonight)
+## 🛠️ Tech Stack
+- **Power BI** – Data Visualization  
+- **Excel** – Data Source  
+- **DAX** – Data Modeling & KPIs  
 
 ---
 
-## 🌐 Let's Connect  
-
-<p align="left">
-<a href="https://www.linkedin.com/in/adarsh-tripathi-886621282" target="_blank">
-<img src="https://img.shields.io/badge/LinkedIn-Adarsh%20Tripathi-blue?style=for-the-badge&logo=linkedin">
-</a>
-</p>
-
----
-
-## 🔥 Current Focus  
-- 🚀 Building **End-to-End Data Projects**  
-- ☁️ Learning **Azure & Data Engineering**  
-- 🤖 Exploring **AI in Data Analytics**  
-- 💼 Preparing for **Data Analyst Roles**  
+## 📊 Key Metrics (KPIs)
+| Metric | Value |
+|------|------|
+| 💰 Total Sales | 1.20M+ |
+| 📉 Avg Sales | $141 |
+| 📦 Total Items | 8,523 |
+| ⭐ Avg Rating | 3.9+ |
 
 ---
 
-## 💡 Fun Fact  
-I don’t just analyze data — I turn it into **stories that drive decisions** 📊✨  
+## 📈 Key Insights (Business Impact)
+- 🥗 Low-fat products generated **~65% higher revenue**
+- 🏪 Medium outlets contributed the **highest sales share**
+- 🍎 Fruits & Vegetables are **top revenue drivers**
+- 🐟 Seafood is **underperforming category**
+- 📅 2018 recorded **peak sales performance**
 
 ---
-Adarsh Tripathi
 
-⭐ **If you like my work, consider giving a star to my repositories!**
+## 🧠 Skills Demonstrated
+- Data Cleaning & Transformation  
+- Data Modeling  
+- DAX Calculations  
+- Business Insight Generation  
+- Dashboard Design (UI/UX)  
+- Data Storytelling  
+
+---
+
+## 📂 Project Workflow
+```mermaid
+graph TD;
+A[Raw Data] --> B[Data Cleaning]
+B --> C[Data Transformation]
+C --> D[KPI Creation using DAX]
+D --> E[Dashboard Development]
+E --> F[Insights & Business Decisions]
+```
+
+---
+
+## 🧮 DAX Measures
+```DAX
+Total Sales = SUM('BlinkIT Grocery Data'[Sales])
+Average Sales = AVERAGE('BlinkIT Grocery Data'[Sales])
+Average Rating = AVERAGE('BlinkIT Grocery Data'[Rating])
+Number of Items = COUNTROWS('BlinkIT Grocery Data')
+```
+
+---
+
+## 📸 Dashboard Preview
+> 💡 Add screenshots in this order:
+1. Full Dashboard View  
+2. KPI Overview  
+3. Category Analysis  
+4. Outlet Analysis  
+5. Trend Analysis  
+
+---
+
+## 🚀 How to Run
+1. Download `.pbix` file  
+2. Open in Power BI Desktop  
+3. Interact using filters  
+
+---
+
+## 💼 Why This Project Matters
+This project simulates a **real-world retail analytics use case**, demonstrating how data can:
+- Improve business performance  
+- Drive strategic decisions  
+- Identify revenue opportunities  
+
+---
+
+## 📢 Let's Connect
+If you're a recruiter or data enthusiast, feel free to connect!
+
+⭐ Star this repo if you found it useful!
